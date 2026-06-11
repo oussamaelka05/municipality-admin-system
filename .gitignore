@@ -1,0 +1,24 @@
+# Laravel backend
+backend/.env
+backend/.env.backup
+backend/vendor/
+backend/storage/logs/*.log
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/bootstrap/cache/
+backend/public/hot
+
+# React frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Screenshots (not needed in repo)
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
