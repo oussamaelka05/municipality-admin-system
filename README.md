@@ -30,6 +30,10 @@ DB_PORT=3306
 DB_DATABASE=municipality_db
 DB_USERNAME=root
 DB_PASSWORD=
+
+'
+SESSION_DRIVER=file
+'
 ```
 
 Then create the database in MySQL:
