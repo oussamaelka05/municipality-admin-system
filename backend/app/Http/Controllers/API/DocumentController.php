@@ -12,7 +12,7 @@ class DocumentController extends Controller
     public function index(Request $request): JsonResponse
     {
         $query = Document::with(['documentType', 'issuedBy', 'citizen'])
-            ->latest('issue_date');
+            ->latest();
 
         if ($request->filled('search')) {
             $s = $request->search;
